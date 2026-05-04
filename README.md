@@ -1,11 +1,16 @@
 # Lending Message A/B Test
 
-GitHub-ready analysis for the lending outreach experiment. This version keeps only:
+## Context
 
-- Part A: experiment analysis
-- Part B: written recommendation
+A lending client is testing LLM-rewritten outreach messages for applicants who started a loan application but have not yet uploaded required income documents.
 
-The Part C LLM/message-quality evaluation is intentionally excluded.
+Input csv includes experiment results for three message variants:
+
+- **Original**
+- **LLM Rewrite A**
+- **LLM Rewrite B**
+
+The business goal is to improve the main borrower action without increasing negative signals.
 
 ## Repository Contents
 
